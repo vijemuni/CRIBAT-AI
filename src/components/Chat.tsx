@@ -15,7 +15,7 @@ export const Chat: React.FC = () => {
   const [loading, setLoading] = useState(false);
   const [context, setContext] = useState('');
   const [isTyping, setIsTyping] = useState(false);
-  const messagesEndRef = useRef<HTMLDivElement>(null);
+  
   const inputRef = useRef<HTMLInputElement>(null);
   const chatContainerRef = useRef<HTMLDivElement>(null);
 
